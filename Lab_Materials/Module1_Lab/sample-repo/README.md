@@ -11,6 +11,11 @@ surfaces (completions, chat, agent mode, CLI, cloud agent, code review).
   vulnerability** (string-concatenated query) for the security exercise.
 - `tests/test_calculations.py` - a starter test file with a TODO for you to extend.
 
+## Utilities
+- `utils.py`
+  - `factorial(n)` - returns the factorial of a non-negative integer `n`, returns
+    `1` when `n` is `0`, and raises `ValueError` if `n` is negative.
+
 ## Run the tests
     pip install -r requirements.txt
     python -m pytest -q

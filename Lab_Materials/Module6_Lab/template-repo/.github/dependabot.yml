@@ -1,0 +1,13 @@
+# Dependabot — enables dependency update PRs and (with the repo's security settings) alerts.
+# Used in Lab 7 to get REAL advisory data instead of a captured file.
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"

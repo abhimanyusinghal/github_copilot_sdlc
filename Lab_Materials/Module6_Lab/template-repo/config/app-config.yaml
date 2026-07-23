@@ -1,0 +1,17 @@
+# Acme Customer Portal — application config (current)
+# The rate-limit keys here were renamed from the names reset_service.py reads.
+# No test checks that the code and this file agree — Lab 7 adds that contract test.
+
+portal:
+  base_url: "https://portal.acme.test"
+  session_timeout_minutes: 30
+
+password_reset:
+  token_ttl_minutes: 30
+  single_use: true
+  rate_limit_window_seconds: 900
+  rate_limit_max_requests: 5
+
+logging:
+  level: "INFO"
+  redact_pii: false

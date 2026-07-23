@@ -1,0 +1,2 @@
+- Always validate input and raise a clear `ValueError` on bad input.
+- Write a matching pytest test for every function you add.

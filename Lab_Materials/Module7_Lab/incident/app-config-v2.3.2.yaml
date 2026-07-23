@@ -1,0 +1,20 @@
+# Acme Customer Portal — application config from the PREVIOUS release v2.3.2
+# Deployed 2026-07-21 09:15 UTC. This is what was running before the incident.
+
+portal:
+  base_url: "https://portal.acme.test"
+  session_timeout_minutes: 30
+
+password_reset:
+  token_ttl_minutes: 30
+  single_use: true
+  rate_limit_window: 900
+  rate_limit_max: 5
+
+email:
+  provider: "acme-mail"
+  template_reset: "reset-link-v2"
+
+logging:
+  level: "INFO"
+  redact_pii: false

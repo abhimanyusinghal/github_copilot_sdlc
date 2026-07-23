@@ -1,0 +1,228 @@
+# Acme Customer Portal - application log excerpt
+# Window: 2026-07-23 12:00:00Z to 15:00:00Z  (service: portal, reset-service, db, kyc)
+# Retrieved for incident INC-2026-0723-01. Analyse this LOCALLY in VS Code.
+
+2026-07-23T12:00:00Z  WARN  [db] slow_query duration=2.2s query=tickets_by_team correlation_id=cq-4001
+2026-07-23T12:00:00Z  INFO  [portal] health_check ok uptime_s=300 active_workers=8
+2026-07-23T12:01:30Z  WARN  [db] slow_query duration=2.3s query=tickets_by_team correlation_id=cq-4002
+2026-07-23T12:03:00Z  WARN  [db] slow_query duration=2.4s query=tickets_by_team correlation_id=cq-4003
+2026-07-23T12:04:30Z  WARN  [db] slow_query duration=2.5s query=tickets_by_team correlation_id=cq-4004
+2026-07-23T12:05:00Z  WARN  [kyc] upstream_timeout after=5000ms endpoint=/verify correlation_id=kyc-701
+2026-07-23T12:05:00Z  INFO  [portal] health_check ok uptime_s=600 active_workers=8
+2026-07-23T12:06:00Z  WARN  [db] slow_query duration=2.6s query=tickets_by_team correlation_id=cq-4005
+2026-07-23T12:07:30Z  WARN  [db] slow_query duration=2.7s query=tickets_by_team correlation_id=cq-4006
+2026-07-23T12:09:00Z  WARN  [db] slow_query duration=2.8s query=tickets_by_team correlation_id=cq-4007
+2026-07-23T12:10:00Z  INFO  [portal] health_check ok uptime_s=900 active_workers=8
+2026-07-23T12:10:30Z  WARN  [db] slow_query duration=2.9s query=tickets_by_team correlation_id=cq-4008
+2026-07-23T12:12:00Z  WARN  [db] slow_query duration=2.1s query=tickets_by_team correlation_id=cq-4009
+2026-07-23T12:13:30Z  WARN  [db] slow_query duration=2.2s query=tickets_by_team correlation_id=cq-4010
+2026-07-23T12:15:00Z  WARN  [db] slow_query duration=2.3s query=tickets_by_team correlation_id=cq-4011
+2026-07-23T12:15:00Z  WARN  [kyc] upstream_timeout after=5000ms endpoint=/verify correlation_id=kyc-702
+2026-07-23T12:15:00Z  INFO  [portal] health_check ok uptime_s=1200 active_workers=8
+2026-07-23T12:16:30Z  WARN  [db] slow_query duration=2.4s query=tickets_by_team correlation_id=cq-4012
+2026-07-23T12:18:00Z  WARN  [db] slow_query duration=2.5s query=tickets_by_team correlation_id=cq-4013
+2026-07-23T12:19:30Z  WARN  [db] slow_query duration=2.6s query=tickets_by_team correlation_id=cq-4014
+2026-07-23T12:20:00Z  INFO  [portal] health_check ok uptime_s=1500 active_workers=8
+2026-07-23T12:21:00Z  WARN  [db] slow_query duration=2.7s query=tickets_by_team correlation_id=cq-4015
+2026-07-23T12:22:30Z  WARN  [db] slow_query duration=2.8s query=tickets_by_team correlation_id=cq-4016
+2026-07-23T12:24:00Z  WARN  [db] slow_query duration=2.9s query=tickets_by_team correlation_id=cq-4017
+2026-07-23T12:25:00Z  WARN  [kyc] upstream_timeout after=5000ms endpoint=/verify correlation_id=kyc-703
+2026-07-23T12:25:00Z  INFO  [portal] health_check ok uptime_s=1800 active_workers=8
+2026-07-23T12:25:30Z  WARN  [db] slow_query duration=2.1s query=tickets_by_team correlation_id=cq-4018
+2026-07-23T12:27:00Z  WARN  [db] slow_query duration=2.2s query=tickets_by_team correlation_id=cq-4019
+2026-07-23T12:28:30Z  WARN  [db] slow_query duration=2.3s query=tickets_by_team correlation_id=cq-4020
+2026-07-23T12:30:00Z  WARN  [db] slow_query duration=2.4s query=tickets_by_team correlation_id=cq-4021
+2026-07-23T12:30:00Z  INFO  [portal] health_check ok uptime_s=2100 active_workers=8
+2026-07-23T12:31:30Z  WARN  [db] slow_query duration=2.5s query=tickets_by_team correlation_id=cq-4022
+2026-07-23T12:33:00Z  WARN  [db] slow_query duration=2.6s query=tickets_by_team correlation_id=cq-4023
+2026-07-23T12:34:30Z  WARN  [db] slow_query duration=2.7s query=tickets_by_team correlation_id=cq-4024
+2026-07-23T12:35:00Z  WARN  [kyc] upstream_timeout after=5000ms endpoint=/verify correlation_id=kyc-704
+2026-07-23T12:35:00Z  INFO  [portal] health_check ok uptime_s=2400 active_workers=8
+2026-07-23T12:36:00Z  WARN  [db] slow_query duration=2.8s query=tickets_by_team correlation_id=cq-4025
+2026-07-23T12:37:30Z  WARN  [db] slow_query duration=2.9s query=tickets_by_team correlation_id=cq-4026
+2026-07-23T12:39:00Z  WARN  [db] slow_query duration=2.1s query=tickets_by_team correlation_id=cq-4027
+2026-07-23T12:40:00Z  INFO  [portal] health_check ok uptime_s=2700 active_workers=8
+2026-07-23T12:40:30Z  WARN  [db] slow_query duration=2.2s query=tickets_by_team correlation_id=cq-4028
+2026-07-23T12:42:00Z  WARN  [db] slow_query duration=2.3s query=tickets_by_team correlation_id=cq-4029
+2026-07-23T12:43:30Z  WARN  [db] slow_query duration=2.4s query=tickets_by_team correlation_id=cq-4030
+2026-07-23T12:45:00Z  WARN  [db] slow_query duration=2.5s query=tickets_by_team correlation_id=cq-4031
+2026-07-23T12:45:00Z  WARN  [kyc] upstream_timeout after=5000ms endpoint=/verify correlation_id=kyc-705
+2026-07-23T12:45:00Z  INFO  [portal] health_check ok uptime_s=3000 active_workers=8
+2026-07-23T12:46:30Z  WARN  [db] slow_query duration=2.6s query=tickets_by_team correlation_id=cq-4032
+2026-07-23T12:48:00Z  WARN  [db] slow_query duration=2.7s query=tickets_by_team correlation_id=cq-4033
+2026-07-23T12:49:30Z  WARN  [db] slow_query duration=2.8s query=tickets_by_team correlation_id=cq-4034
+2026-07-23T12:50:00Z  INFO  [portal] health_check ok uptime_s=3300 active_workers=8
+2026-07-23T12:51:00Z  WARN  [db] slow_query duration=2.9s query=tickets_by_team correlation_id=cq-4035
+2026-07-23T12:52:30Z  WARN  [db] slow_query duration=2.1s query=tickets_by_team correlation_id=cq-4036
+2026-07-23T12:54:00Z  WARN  [db] slow_query duration=2.2s query=tickets_by_team correlation_id=cq-4037
+2026-07-23T12:55:00Z  WARN  [kyc] upstream_timeout after=5000ms endpoint=/verify correlation_id=kyc-706
+2026-07-23T12:55:00Z  INFO  [portal] health_check ok uptime_s=3600 active_workers=8
+2026-07-23T12:55:30Z  WARN  [db] slow_query duration=2.3s query=tickets_by_team correlation_id=cq-4038
+2026-07-23T12:57:00Z  WARN  [db] slow_query duration=2.4s query=tickets_by_team correlation_id=cq-4039
+2026-07-23T12:58:30Z  WARN  [db] slow_query duration=2.5s query=tickets_by_team correlation_id=cq-4040
+2026-07-23T13:00:00Z  WARN  [db] slow_query duration=2.6s query=tickets_by_team correlation_id=cq-4041
+2026-07-23T13:00:00Z  INFO  [portal] health_check ok uptime_s=3900 active_workers=8
+2026-07-23T13:01:30Z  WARN  [db] slow_query duration=2.7s query=tickets_by_team correlation_id=cq-4042
+2026-07-23T13:03:00Z  WARN  [db] slow_query duration=2.8s query=tickets_by_team correlation_id=cq-4043
+2026-07-23T13:04:30Z  WARN  [db] slow_query duration=2.9s query=tickets_by_team correlation_id=cq-4044
+2026-07-23T13:05:00Z  WARN  [kyc] upstream_timeout after=5000ms endpoint=/verify correlation_id=kyc-707
+2026-07-23T13:05:00Z  INFO  [portal] health_check ok uptime_s=4200 active_workers=8
+2026-07-23T13:06:00Z  WARN  [db] slow_query duration=2.1s query=tickets_by_team correlation_id=cq-4045
+2026-07-23T13:07:30Z  WARN  [db] slow_query duration=2.2s query=tickets_by_team correlation_id=cq-4046
+2026-07-23T13:09:00Z  WARN  [db] slow_query duration=2.3s query=tickets_by_team correlation_id=cq-4047
+2026-07-23T13:10:00Z  INFO  [portal] health_check ok uptime_s=4500 active_workers=8
+2026-07-23T13:10:30Z  WARN  [db] slow_query duration=2.4s query=tickets_by_team correlation_id=cq-4048
+2026-07-23T13:12:00Z  WARN  [db] slow_query duration=2.5s query=tickets_by_team correlation_id=cq-4049
+2026-07-23T13:13:30Z  WARN  [db] slow_query duration=2.6s query=tickets_by_team correlation_id=cq-4050
+2026-07-23T13:15:00Z  WARN  [db] slow_query duration=2.7s query=tickets_by_team correlation_id=cq-4051
+2026-07-23T13:15:00Z  WARN  [kyc] upstream_timeout after=5000ms endpoint=/verify correlation_id=kyc-708
+2026-07-23T13:15:00Z  INFO  [portal] health_check ok uptime_s=4800 active_workers=8
+2026-07-23T13:16:30Z  WARN  [db] slow_query duration=2.8s query=tickets_by_team correlation_id=cq-4052
+2026-07-23T13:18:00Z  WARN  [db] slow_query duration=2.9s query=tickets_by_team correlation_id=cq-4053
+2026-07-23T13:19:30Z  WARN  [db] slow_query duration=2.1s query=tickets_by_team correlation_id=cq-4054
+2026-07-23T13:20:00Z  INFO  [portal] health_check ok uptime_s=5100 active_workers=8
+2026-07-23T13:21:00Z  WARN  [db] slow_query duration=2.2s query=tickets_by_team correlation_id=cq-4055
+2026-07-23T13:22:30Z  WARN  [db] slow_query duration=2.3s query=tickets_by_team correlation_id=cq-4056
+2026-07-23T13:24:00Z  WARN  [db] slow_query duration=2.4s query=tickets_by_team correlation_id=cq-4057
+2026-07-23T13:25:00Z  WARN  [kyc] upstream_timeout after=5000ms endpoint=/verify correlation_id=kyc-709
+2026-07-23T13:25:00Z  INFO  [portal] health_check ok uptime_s=5400 active_workers=8
+2026-07-23T13:25:30Z  WARN  [db] slow_query duration=2.5s query=tickets_by_team correlation_id=cq-4058
+2026-07-23T13:27:00Z  WARN  [db] slow_query duration=2.6s query=tickets_by_team correlation_id=cq-4059
+2026-07-23T13:28:30Z  WARN  [db] slow_query duration=2.7s query=tickets_by_team correlation_id=cq-4060
+2026-07-23T13:30:00Z  WARN  [db] slow_query duration=2.8s query=tickets_by_team correlation_id=cq-4061
+2026-07-23T13:30:00Z  INFO  [portal] health_check ok uptime_s=5700 active_workers=8
+2026-07-23T13:31:30Z  WARN  [db] slow_query duration=2.9s query=tickets_by_team correlation_id=cq-4062
+2026-07-23T13:33:00Z  WARN  [db] slow_query duration=2.1s query=tickets_by_team correlation_id=cq-4063
+2026-07-23T13:34:30Z  WARN  [db] slow_query duration=2.2s query=tickets_by_team correlation_id=cq-4064
+2026-07-23T13:35:00Z  WARN  [kyc] upstream_timeout after=5000ms endpoint=/verify correlation_id=kyc-710
+2026-07-23T13:35:00Z  INFO  [portal] health_check ok uptime_s=6000 active_workers=8
+2026-07-23T13:36:00Z  WARN  [db] slow_query duration=2.3s query=tickets_by_team correlation_id=cq-4065
+2026-07-23T13:37:30Z  WARN  [db] slow_query duration=2.4s query=tickets_by_team correlation_id=cq-4066
+2026-07-23T13:39:00Z  WARN  [db] slow_query duration=2.5s query=tickets_by_team correlation_id=cq-4067
+2026-07-23T13:40:00Z  INFO  [portal] health_check ok uptime_s=6300 active_workers=8
+2026-07-23T13:40:30Z  WARN  [db] slow_query duration=2.6s query=tickets_by_team correlation_id=cq-4068
+2026-07-23T13:42:00Z  WARN  [db] slow_query duration=2.7s query=tickets_by_team correlation_id=cq-4069
+2026-07-23T13:43:30Z  WARN  [db] slow_query duration=2.8s query=tickets_by_team correlation_id=cq-4070
+2026-07-23T13:45:00Z  WARN  [db] slow_query duration=2.9s query=tickets_by_team correlation_id=cq-4071
+2026-07-23T13:45:00Z  WARN  [kyc] upstream_timeout after=5000ms endpoint=/verify correlation_id=kyc-711
+2026-07-23T13:45:00Z  INFO  [portal] health_check ok uptime_s=6600 active_workers=8
+2026-07-23T13:46:30Z  WARN  [db] slow_query duration=2.1s query=tickets_by_team correlation_id=cq-4072
+2026-07-23T13:48:00Z  WARN  [db] slow_query duration=2.2s query=tickets_by_team correlation_id=cq-4073
+2026-07-23T13:49:30Z  WARN  [db] slow_query duration=2.3s query=tickets_by_team correlation_id=cq-4074
+2026-07-23T13:50:00Z  INFO  [portal] health_check ok uptime_s=6900 active_workers=8
+2026-07-23T13:51:00Z  WARN  [db] slow_query duration=2.4s query=tickets_by_team correlation_id=cq-4075
+2026-07-23T13:52:30Z  WARN  [db] slow_query duration=2.5s query=tickets_by_team correlation_id=cq-4076
+2026-07-23T13:54:00Z  WARN  [db] slow_query duration=2.6s query=tickets_by_team correlation_id=cq-4077
+2026-07-23T13:55:00Z  WARN  [kyc] upstream_timeout after=5000ms endpoint=/verify correlation_id=kyc-712
+2026-07-23T13:55:00Z  INFO  [portal] health_check ok uptime_s=7200 active_workers=8
+2026-07-23T13:55:30Z  WARN  [db] slow_query duration=2.7s query=tickets_by_team correlation_id=cq-4078
+2026-07-23T13:57:00Z  WARN  [db] slow_query duration=2.8s query=tickets_by_team correlation_id=cq-4079
+2026-07-23T13:58:30Z  WARN  [db] slow_query duration=2.9s query=tickets_by_team correlation_id=cq-4080
+2026-07-23T14:00:00Z  WARN  [db] slow_query duration=2.1s query=tickets_by_team correlation_id=cq-4081
+2026-07-23T14:00:00Z  INFO  [portal] health_check ok uptime_s=7500 active_workers=8
+2026-07-23T14:01:30Z  WARN  [db] slow_query duration=2.2s query=tickets_by_team correlation_id=cq-4082
+2026-07-23T14:03:00Z  WARN  [db] slow_query duration=2.3s query=tickets_by_team correlation_id=cq-4083
+2026-07-23T14:04:30Z  WARN  [db] slow_query duration=2.4s query=tickets_by_team correlation_id=cq-4084
+2026-07-23T14:05:00Z  WARN  [kyc] upstream_timeout after=5000ms endpoint=/verify correlation_id=kyc-713
+2026-07-23T14:05:00Z  INFO  [portal] health_check ok uptime_s=7800 active_workers=8
+2026-07-23T14:06:00Z  WARN  [db] slow_query duration=2.5s query=tickets_by_team correlation_id=cq-4085
+2026-07-23T14:07:30Z  WARN  [db] slow_query duration=2.6s query=tickets_by_team correlation_id=cq-4086
+2026-07-23T14:09:00Z  WARN  [db] slow_query duration=2.7s query=tickets_by_team correlation_id=cq-4087
+2026-07-23T14:10:00Z  INFO  [portal] health_check ok uptime_s=8100 active_workers=8
+2026-07-23T14:10:30Z  WARN  [db] slow_query duration=2.8s query=tickets_by_team correlation_id=cq-4088
+2026-07-23T14:12:00Z  WARN  [db] slow_query duration=2.9s query=tickets_by_team correlation_id=cq-4089
+2026-07-23T14:13:30Z  WARN  [db] slow_query duration=2.1s query=tickets_by_team correlation_id=cq-4090
+2026-07-23T14:15:00Z  WARN  [db] slow_query duration=2.2s query=tickets_by_team correlation_id=cq-4091
+2026-07-23T14:15:00Z  WARN  [kyc] upstream_timeout after=5000ms endpoint=/verify correlation_id=kyc-714
+2026-07-23T14:15:00Z  INFO  [portal] health_check ok uptime_s=8400 active_workers=8
+2026-07-23T14:16:30Z  WARN  [db] slow_query duration=2.3s query=tickets_by_team correlation_id=cq-4092
+2026-07-23T14:18:00Z  WARN  [db] slow_query duration=2.4s query=tickets_by_team correlation_id=cq-4093
+2026-07-23T14:19:30Z  WARN  [db] slow_query duration=2.5s query=tickets_by_team correlation_id=cq-4094
+2026-07-23T14:20:00Z  INFO  [portal] health_check ok uptime_s=8700 active_workers=8
+2026-07-23T14:21:00Z  WARN  [db] slow_query duration=2.6s query=tickets_by_team correlation_id=cq-4095
+2026-07-23T14:22:30Z  WARN  [db] slow_query duration=2.7s query=tickets_by_team correlation_id=cq-4096
+2026-07-23T14:24:00Z  WARN  [db] slow_query duration=2.8s query=tickets_by_team correlation_id=cq-4097
+2026-07-23T14:25:00Z  WARN  [kyc] upstream_timeout after=5000ms endpoint=/verify correlation_id=kyc-715
+2026-07-23T14:25:00Z  INFO  [portal] health_check ok uptime_s=9000 active_workers=8
+2026-07-23T14:25:30Z  WARN  [db] slow_query duration=2.9s query=tickets_by_team correlation_id=cq-4098
+2026-07-23T14:27:00Z  WARN  [db] slow_query duration=2.1s query=tickets_by_team correlation_id=cq-4099
+2026-07-23T14:28:30Z  WARN  [db] slow_query duration=2.2s query=tickets_by_team correlation_id=cq-4100
+2026-07-23T14:30:00Z  WARN  [db] slow_query duration=2.3s query=tickets_by_team correlation_id=cq-4101
+2026-07-23T14:30:00Z  INFO  [portal] health_check ok uptime_s=9300 active_workers=8
+2026-07-23T14:30:00Z  INFO  [deploy] release v2.4.0 rollout=100% completed_by=ci-bot
+2026-07-23T14:30:12Z  INFO  [portal] config reloaded source=app-config.yaml version=2.4.0
+2026-07-23T14:31:30Z  WARN  [db] slow_query duration=2.4s query=tickets_by_team correlation_id=cq-4102
+2026-07-23T14:32:00Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9001 user=riya@acme.test
+2026-07-23T14:32:35Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9002
+2026-07-23T14:33:00Z  WARN  [db] slow_query duration=2.5s query=tickets_by_team correlation_id=cq-4103
+2026-07-23T14:33:10Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9003
+2026-07-23T14:33:45Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9004
+2026-07-23T14:34:20Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9005
+2026-07-23T14:34:30Z  WARN  [db] slow_query duration=2.6s query=tickets_by_team correlation_id=cq-4104
+2026-07-23T14:34:55Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9006
+2026-07-23T14:35:00Z  WARN  [kyc] upstream_timeout after=5000ms endpoint=/verify correlation_id=kyc-716
+2026-07-23T14:35:00Z  INFO  [portal] health_check ok uptime_s=9600 active_workers=8
+2026-07-23T14:35:30Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9007
+2026-07-23T14:36:00Z  WARN  [db] slow_query duration=2.7s query=tickets_by_team correlation_id=cq-4105
+2026-07-23T14:36:05Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9008
+2026-07-23T14:36:40Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9009
+2026-07-23T14:37:15Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9010
+2026-07-23T14:37:30Z  WARN  [db] slow_query duration=2.8s query=tickets_by_team correlation_id=cq-4106
+2026-07-23T14:37:50Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9011
+2026-07-23T14:38:25Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9012
+2026-07-23T14:39:00Z  WARN  [db] slow_query duration=2.9s query=tickets_by_team correlation_id=cq-4107
+2026-07-23T14:39:00Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9013
+2026-07-23T14:39:35Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9014
+2026-07-23T14:40:00Z  INFO  [portal] health_check ok uptime_s=9900 active_workers=8
+2026-07-23T14:40:10Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9015
+2026-07-23T14:40:30Z  WARN  [db] slow_query duration=2.1s query=tickets_by_team correlation_id=cq-4108
+2026-07-23T14:40:45Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9016
+2026-07-23T14:41:20Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9017 user=riya@acme.test
+2026-07-23T14:41:55Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9018
+2026-07-23T14:42:00Z  WARN  [db] slow_query duration=2.2s query=tickets_by_team correlation_id=cq-4109
+2026-07-23T14:42:30Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9019
+2026-07-23T14:43:05Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9020
+2026-07-23T14:43:30Z  WARN  [db] slow_query duration=2.3s query=tickets_by_team correlation_id=cq-4110
+2026-07-23T14:43:40Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9021
+2026-07-23T14:44:15Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9022
+2026-07-23T14:44:50Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9023
+2026-07-23T14:45:00Z  WARN  [db] slow_query duration=2.4s query=tickets_by_team correlation_id=cq-4111
+2026-07-23T14:45:00Z  WARN  [kyc] upstream_timeout after=5000ms endpoint=/verify correlation_id=kyc-717
+2026-07-23T14:45:00Z  INFO  [portal] health_check ok uptime_s=10200 active_workers=8
+2026-07-23T14:45:25Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9024
+2026-07-23T14:46:00Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9025
+2026-07-23T14:46:30Z  WARN  [db] slow_query duration=2.5s query=tickets_by_team correlation_id=cq-4112
+2026-07-23T14:46:35Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9026
+2026-07-23T14:47:10Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9027
+2026-07-23T14:47:45Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9028
+2026-07-23T14:48:00Z  WARN  [db] slow_query duration=2.6s query=tickets_by_team correlation_id=cq-4113
+2026-07-23T14:48:20Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9029
+2026-07-23T14:48:55Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9030
+2026-07-23T14:49:30Z  WARN  [db] slow_query duration=2.7s query=tickets_by_team correlation_id=cq-4114
+2026-07-23T14:49:30Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9031
+2026-07-23T14:50:00Z  INFO  [portal] health_check ok uptime_s=10500 active_workers=8
+2026-07-23T14:50:05Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9032
+2026-07-23T14:50:40Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9033 user=riya@acme.test
+2026-07-23T14:51:00Z  WARN  [db] slow_query duration=2.8s query=tickets_by_team correlation_id=cq-4115
+2026-07-23T14:51:15Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9034
+2026-07-23T14:51:50Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9035
+2026-07-23T14:52:25Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9036
+2026-07-23T14:52:30Z  WARN  [db] slow_query duration=2.9s query=tickets_by_team correlation_id=cq-4116
+2026-07-23T14:53:00Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9037
+2026-07-23T14:53:35Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9038
+2026-07-23T14:54:00Z  WARN  [db] slow_query duration=2.1s query=tickets_by_team correlation_id=cq-4117
+2026-07-23T14:54:10Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9039
+2026-07-23T14:54:45Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9040
+2026-07-23T14:55:00Z  WARN  [kyc] upstream_timeout after=5000ms endpoint=/verify correlation_id=kyc-718
+2026-07-23T14:55:00Z  INFO  [portal] health_check ok uptime_s=10800 active_workers=8
+2026-07-23T14:55:20Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9041
+2026-07-23T14:55:30Z  WARN  [db] slow_query duration=2.2s query=tickets_by_team correlation_id=cq-4118
+2026-07-23T14:55:55Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9042
+2026-07-23T14:56:30Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9043
+2026-07-23T14:57:00Z  WARN  [db] slow_query duration=2.3s query=tickets_by_team correlation_id=cq-4119
+2026-07-23T14:57:05Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9044
+2026-07-23T14:57:40Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9045
+2026-07-23T14:58:15Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9046
+2026-07-23T14:58:30Z  WARN  [db] slow_query duration=2.4s query=tickets_by_team correlation_id=cq-4120
+2026-07-23T14:58:50Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9047
+2026-07-23T14:59:25Z  ERROR [reset-service] PasswordResetError: KeyError 'rate_limit_window' at reset_service.py:35 -> HTTP 500 on POST /password-reset correlation_id=rst-9048

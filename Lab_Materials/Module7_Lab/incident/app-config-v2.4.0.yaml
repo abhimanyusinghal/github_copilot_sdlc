@@ -1,0 +1,21 @@
+# Acme Customer Portal — application config SHIPPED WITH RELEASE v2.4.0
+# Deployed 2026-07-23 14:30 UTC. Compare with app-config-v2.3.2.yaml.
+
+portal:
+  base_url: "https://portal.acme.test"
+  session_timeout_minutes: 30
+
+password_reset:
+  token_ttl_minutes: 30
+  single_use: true
+  # Rate-limiting settings were renamed in 2.4.0 for clarity (#142).
+  rate_limit_window_seconds: 900
+  rate_limit_max_requests: 5
+
+email:
+  provider: "acme-mail"
+  template_reset: "reset-link-v3"
+
+logging:
+  level: "INFO"
+  redact_pii: false

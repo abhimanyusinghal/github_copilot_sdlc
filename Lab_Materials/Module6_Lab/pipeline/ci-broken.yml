@@ -1,0 +1,33 @@
+# Acme Customer Portal — CI/CD workflow (BROKEN — this is your starting point)
+#
+# This is the offline copy of the template repo's intentionally broken workflow.
+# Work on a copy at `pipeline/ci.yml` and validate it with `python check_pipeline.py`.
+
+name: CI
+
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+      - uses: actions/setup-python@main
+        with:
+          python-version: "3.11"
+      - name: Run tests
+        run: python -m pytest -q
+
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+      - name: Deploy to production
+        run: ./scripts/deploy.sh --target prod --traffic 100
+        env:
+          DEPLOY_TOKEN: "lab-token-committed-in-plain-text"

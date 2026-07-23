@@ -1,0 +1,25 @@
+2026-07-23T09:14:02.1180Z Requested labels: ubuntu-latest
+2026-07-23T09:14:02.1181Z Job defined at: acme/customer-portal/.github/workflows/ci.yml@refs/heads/main
+2026-07-23T09:14:03.4412Z Current runner version: '2.336.0'
+2026-07-23T09:14:03.9910Z ##[group]Run actions/checkout@main
+2026-07-23T09:14:05.2277Z Syncing repository: acme/customer-portal
+2026-07-23T09:14:07.8841Z ##[endgroup]
+2026-07-23T09:14:08.0192Z ##[group]Run actions/setup-python@main
+2026-07-23T09:14:08.0193Z   python-version: 3.11
+2026-07-23T09:14:11.6640Z Successfully set up CPython (3.11.15)
+2026-07-23T09:14:11.6641Z ##[endgroup]
+2026-07-23T09:14:11.7203Z ##[group]Run python -m pytest -q
+2026-07-23T09:14:11.9930Z /usr/bin/bash -e /home/runner/work/_temp/2b1f.sh
+2026-07-23T09:14:12.2258Z /opt/hostedtoolcache/Python/3.11.15/x64/bin/python: No module named pytest
+2026-07-23T09:14:12.2431Z ##[error]Process completed with exit code 1.
+2026-07-23T09:14:12.2440Z ##[endgroup]
+2026-07-23T09:14:12.3011Z Evaluate and set job outputs
+2026-07-23T09:14:12.3015Z Cleaning up orphan processes
+2026-07-23T09:14:12.3120Z ##[error]Job 'test' failed after 10s
+
+--- NOTE FOR THE LAB -------------------------------------------------------
+This is a captured run log. In Lab 6 you diagnose it LOCALLY with Copilot Chat
+in VS Code — attach this file and ask what failed and why. Do not use the
+github.com "Explain error" / "Fix with Copilot" buttons; the boundary for this
+lab is VS Code only.
+---------------------------------------------------------------------------
