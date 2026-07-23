@@ -39,7 +39,8 @@ new runs; protect in-flight work). Put files in `release-artifacts/<track>/`.
 
 **Goal:** get your own repo and watch the pipeline fail for real.
 
-1. On the facilitator's template repo: **Use this template → Create a new repository** (**Public**). Clone it
+1. Open the template repo — **https://github.com/abhimanyusinghal/acme-portal-lab** — and choose
+   **Use this template → Create a new repository** (**Public**). Clone it
    and open it in VS Code.
 2. Open the repo's **Actions** tab. If template creation did not start **CI** automatically, select
    **CI → Run workflow → Run workflow**. The run is **red**. Open the failed **test** job and read the

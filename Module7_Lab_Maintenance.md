@@ -17,12 +17,14 @@ confirm it in the source**. A reversible rollback can restore a change-correlate
 analysis, but a fix-forward must not be based on an unverified AI explanation.
 
 > **Didn't do the earlier labs?** No problem — the incident is fully provided; for the GitHub parts, generate
-> a fresh repo from the template.
+> a fresh repo from the template at **https://github.com/abhimanyusinghal/acme-portal-lab**
+> (**Use this template → Create a new repository**, **Public**).
 
 **Setup**
 - **AI stays in VS Code** (your BYOK model). Use GitHub's normal features — Issues, PRs, Actions, Dependabot —
   for the *outcomes*, but **no AI on github.com**. All the analysis is local files.
-- A **free GitHub account** in VS Code, and your **Lab 6 repo** (or a fresh one from the template).
+- A **free GitHub account** in VS Code, and your **Lab 6 repo** (or a fresh one from the template at
+  **https://github.com/abhimanyusinghal/acme-portal-lab**).
 - **Python 3.11** (matching the lab workflow) for the contract test and legacy stretch. The deliberately
   old dependency snapshot is not supported on every newer Python runtime.
 - For local tests, install the template repo's deliberately old exercise dependencies only in a disposable
